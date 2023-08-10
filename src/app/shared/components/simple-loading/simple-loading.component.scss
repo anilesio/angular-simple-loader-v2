@@ -1,0 +1,64 @@
+$font: 'Arial';
+
+$txtColor1 :#EA9085;
+$bgColor1: #E9E2D0;
+
+$txtColor2: #d45d79;
+$bgColor2: #6e5773;
+
+$txtColor3: #324e7b;
+$bgColor3: #86a6df;
+
+$txtColor4: #5068a9;
+$bgColor4: #F8F8F8;
+
+* {
+  font-family: $font;
+}
+
+.lock-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-type-1 {
+  color: $txtColor1;
+  background: $bgColor1;
+}
+
+.bg-type-2 {
+  color: $txtColor2;
+  background: $bgColor2;
+}
+
+.bg-type-3 {
+  color: $txtColor3;
+  background: $bgColor3;
+}
+
+.bg-type-4 {
+  color: $txtColor4;
+  background: $bgColor4;
+}
+
+.lock-screen span {
+  font-size: 2vw;
+  letter-spacing: 10pt;
+  animation: animation-lock 0.3s ease-in-out infinite alternate;
+}
+
+@keyframes animation-lock {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

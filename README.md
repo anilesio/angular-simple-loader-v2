@@ -1,1 +1,1 @@
-# angular-simple-loader-v2
+# angular-simple-loader
