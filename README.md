@@ -23,6 +23,18 @@ code:: node
     
     npm install -g @angular/cli@12
 
+## Chamada do componente
+
+code:: node
+
+    <app-simple-loading [text]="'Carregando'" [show]="true" [type]="1"></app-simple-loading>
+
+| Propriedade               | Tipo                                                                         | Descrição                             | Obs
+| ------------------------- | ---------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------|
+| `text`                    | String                                                                       | Mensagem a apresentar no carregamento |                                                                                         |
+| `show`                    | Boolean                                                                      | `true` ou `false`                     |                                                                                         |
+| `type`                    | Number                                                                       | 1 à 4                                 | Informando um valor inválido, o códido assume um tema aleatório a casa `load` da página |
+    
 <p>O componente está dentro de um módulo <b>shared.module.ts.ts</b>, que por sua vez é instanciado no <b>app.module.ts</b></p>
 
 <p>Por fim, temos o resultado 😎</p>
