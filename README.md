@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  ![SoExcited~GIF](https://github.com/anilesio/angular-simple-loader-v2/assets/53818836/11b21072-e3e0-4578-9351-285e59f9ac3e)
+  <img src="https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif" width="100px">
 </p>
 
 
