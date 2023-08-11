@@ -28,5 +28,5 @@ code:: node
 <p>Por fim, temos o resultado 😎</p>
 
 <p aling="center">
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNtZmo2aDFucmFseW1pYzY4YW5pYnZoOTY1enpyZWc0NXptN3Z3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IjBZbH0aUdQ2YdWWgR/giphy.gif" width="100%">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDlxMDlxb3VmZ3Z5cjV5NmNscGt1N3Y2dHpmN2k3MHltaTEycXk5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4Jx08tWsBUi7DBIIK6/giphy.gif" width="100%">
 </p>
